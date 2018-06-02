@@ -20,6 +20,7 @@ public class BookDao implements IBookDao {
 		add(new Book("The Power of thoughts 2", "777-852-6314", "Example3", 21.77));
 		add(new Book("The Power of thoughts 3", "777-852-6314", "Example3", 21.77));
 		add(new Book("The Power of thoughts 4", "777-852-6314", "Example3", 21.77));
+		add(new Book("The Power of thoughts 5", "777-852-6314", "Example3", 21.77));
 	}
 
 	@Override
