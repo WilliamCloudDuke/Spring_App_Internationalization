@@ -3,7 +3,7 @@ package com.mum.edu.demo;
 import java.util.List;
 
 
-public interface IBookDao {
+public abstract interface IBookDao {
 
 	public abstract List<Book> getAll();
 
