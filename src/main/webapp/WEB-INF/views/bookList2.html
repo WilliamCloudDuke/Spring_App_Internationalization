@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Books currently in the store</title>
+</head>
+<body>
+	<h1>Books currently in the store</h1>
+	<table>
+		<tr th:each:"book, row: ${books}" th:class="${row.odd}?'odd':'even'">
+			<td>"${book.title}"</td>
+			<td>"${book.ISBN}"</td>
+			<td>"${book.author}"</td>
+			<td>"${book.price}"</td>
+		</tr>
+	</table>
+	<a href="addBook"> Add a Book</a>
+</body>
+</html>

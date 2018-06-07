@@ -20,6 +20,7 @@
 	</tr>
 	</c:forEach>
 	</table>
+	
 	<a href="addBook"> Add a Book</a>
 </body>
 </html>
